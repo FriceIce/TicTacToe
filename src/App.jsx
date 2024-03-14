@@ -92,8 +92,8 @@ function App() {
         second={"8"}
         third={"9"}/>
     </div>
-    <p id='winner'> {winner && `Winner is: ${winner}`}</p>
-    {winner && <button 
+    <p id='winner' > {winner && `Winner is: ${winner}`}</p>
+    {winner && <button className='resetBtn'
     onClick={resetGame}>Play again</button>}
     </>
   )

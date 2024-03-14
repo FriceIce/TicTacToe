@@ -42,6 +42,8 @@ h1 {
 #winner{
     text-align: center;
 }
-button{
-    
+.resetBtn{
+   
+    padding: 10px 15px;
+    background-color: aqua;
 }
