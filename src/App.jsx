@@ -19,7 +19,6 @@ function App() {
   const [winner, setWinner] = useState('')
 
   function handleClick(event){
-
     if (event.target.innerText !== "") {
       alert("click and empty box")
       return 
@@ -96,7 +95,7 @@ function App() {
       <h2 id='winner' > {winner && `${winner} is the winner!!`}</h2>
       <footer>
         {winner && <button className='resetBtn'
-      onClick={resetGame}>Play again</button>}
+        onClick={resetGame}>Play again</button>}
       </footer>
     </div>
     </>

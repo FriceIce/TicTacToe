@@ -1,8 +1,11 @@
-# React + Vite
+Elin, Sophie, Ruben, Johan, Isak, Simon K
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Vad har ni lärt er?
+ Vi lärde oss att samarbeta i ett nytt format. Att lyssna på varandra och förstå varandras tankebanaor och bygga vidare på dem. Vi har också lärt oss att DIV:ar inte kan ha value
 
-Currently, two official plugins are available:
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Vad har varit svårt?
+ Att få ihop logiken till resultat. Att hålla det städat och koncist. Svårt att tänka som driver. 
+
+Hur gick samarbetet?
+ Det gick väldigt bra. Alla fick sin röst hörd och ingen körde över övriga medlemmar. 
