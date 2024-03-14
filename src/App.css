@@ -1,14 +1,25 @@
 *{
   padding: 0; 
   margin: 0; 
+  font-family: 'Arial';
   box-sizing: border-box;
 }
+
 body{
+  background-image: url('https://images.unsplash.com/photo-1558273246-57d22047406d?q=80&w=870&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D');
   width: 100vw;
   height: 100vh;
   display: grid; 
   place-items: center;
-  background-image: url(assets/arcade-bg.jpg);
+  /* background-image: url(assets/arcade-bg.jpg); */
+}
+
+.game-container{
+  padding: 25px 65px;
+  border-radius: 20px;
+  background: rgba(253, 198, 198, 0.721);
+  box-shadow: 
+    0px 0px 20px rgb(30, 178, 227), inset 0px 0px 20px rgb(30, 178, 227);
 }
 
 h1 {
@@ -22,6 +33,7 @@ h1 {
   width: 500px;
   height: 500px;
   border: 1px solid black;
+  box-shadow: 1px 3px 5px rgba(0,0,0,0.25);
 }
 
 .row{
@@ -35,15 +47,28 @@ h1 {
   border: 1px solid black;
   display: grid;
   place-items: center;
-  background-color: bisque;
+  background-color: rgb(255, 255, 255);
   font-size: 5rem;
 }
 
 #winner{
     text-align: center;
+    margin: 2rem;
+}
+
+footer{
+  width: 100%;
+  display: flex;
+  justify-content: center;
 }
 .resetBtn{
-   
-    padding: 10px 15px;
-    background-color: aqua;
+  padding: 10px 15px;
+  border-radius: 14px;
+  border: none;
+  cursor: pointer;
+  box-shadow: 1px 3px 5px rgba(0,0,0,0.25);
+}
+
+.resetBtn:hover{
+    background-color:rgb(84, 163, 237);
 }

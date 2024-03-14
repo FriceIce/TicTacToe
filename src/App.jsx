@@ -76,25 +76,29 @@ function App() {
 
   return (
     <>
-    <h1>Tic tac Toe</h1>
-    <div className="layout" 
-      onClick={(event) => handleClick(event)}>
-      <Row 
-        first={"1"}
-        second={"2"}
-        third={"3"}/>
-      <Row
-        first={"4"}
-        second={"5"}
-        third={"6"}/>
-      <Row
-        first={"7"}
-        second={"8"}
-        third={"9"}/>
+    <div className="game-container">
+      <h1>Tic tac Toe</h1>
+      <div className="layout"
+        onClick={(event) => handleClick(event)}>
+        <Row
+          first={"1"}
+          second={"2"}
+          third={"3"}/>
+        <Row
+          first={"4"}
+          second={"5"}
+          third={"6"}/>
+        <Row
+          first={"7"}
+          second={"8"}
+          third={"9"}/>
+      </div>
+      <h2 id='winner' > {winner && `${winner} is the winner!!`}</h2>
+      <footer>
+        {winner && <button className='resetBtn'
+      onClick={resetGame}>Play again</button>}
+      </footer>
     </div>
-    <p id='winner' > {winner && `Winner is: ${winner}`}</p>
-    {winner && <button className='resetBtn'
-    onClick={resetGame}>Play again</button>}
     </>
   )
 }
